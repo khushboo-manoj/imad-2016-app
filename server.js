@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-agg.get('\khushboosaboo',function(req,res){res.send('My name is khushboo saboo')});
+agg.get('/khushboosaboo',function(req,res){res.send('My name is khushboo saboo')});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
